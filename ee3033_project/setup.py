@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'navigation_client = ee3033_project.navigation_client:main',
+            'exploration_node = ee3033_project.exploration_node:main',
         ],
     },
 )
